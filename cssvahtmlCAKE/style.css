@@ -1,0 +1,152 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */ 
+.myHeader{
+    background-color: #4E2A84;
+    padding: 20px 0;
+}
+.myHeader .header_content{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_content ul{
+    display: flex;
+    list-style: none;
+}
+.header_content ul li{
+    margin-right: 20px;
+}
+.header_content h1{
+    color: white;
+}
+.header_content ul li a{
+    color: white;
+    text-decoration: none;
+}
+.header_content ul li a.active{
+    color: #FF0E83;
+}
+.header_content ul li:hover a{
+    color: #FF0E83;
+}
+
+/* cover */
+.cover{
+    background-image: url("../img/b3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.cover_content{
+    text-align: center;
+    color: white;
+    vertical-align: center;
+    width: 100%;
+}
+.cover_content h2{
+    font-size: 50px;
+}
+.cover_content p{
+    margin:20px 0;
+}
+.cover_content .btn--pink{
+    background-color: #FF0E83;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+/* about */
+.about{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.img_item_1{
+    grid-column: 2/4;
+}
+.about img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.text_about{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+}
+.text_about h2{
+    margin: 20px;
+}
+.text_about p{
+    line-height: 30px;
+}
+.tradition{
+    background-color: #4E2A84;
+}
+.creativity{
+    background-color: #FF0E83;
+}
+.best{
+    background-color: #ED6498;
+    grid-column: 1/3;
+}
+.quality{
+    background-color: #836EAA;
+}
+
+.static_content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.static_content div{
+  
+  padding: 100px;
+}
+
+.static_content h1{
+    color:#4E2A84;
+    margin-bottom: 50px;
+  }
+  /* service */
+.service {
+    background: url("../img/s1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service h2 {
+    
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content_service{
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}

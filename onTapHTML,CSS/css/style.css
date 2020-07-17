@@ -1,0 +1,185 @@
+div {
+    box-sizing: border-box;
+}
+
+#logo .slogan {
+    float: right;
+}
+
+#navbar {
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar ul li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 3px solid brown;
+}
+
+#slider {
+    background-image: url(../img/slider_1.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    background-position: center center;
+    background-attachment: scroll;
+    
+}
+
+#gioithieu {
+    position: relative;
+}
+
+#gioithieu h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#gioithieu .line {
+    position: absolute;
+    background-image: url(../img/line.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 30px;
+    left: 400px;
+    width: 500px;
+}
+
+#gioithieu .word1 {
+    margin-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+#gioithieu .word2 {
+    text-align: center;
+}
+
+#chuongtrinhanhngu {
+    margin-top: 100px;
+    position: relative;
+}
+
+#chuongtrinhanhngu h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#chuongtrinhanhngu .line {
+    position: absolute;
+    background-image: url(../img/line.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 30px;
+    left: 400px;
+    width: 500px;
+}
+
+.chuongtrinh {
+    margin-top: 60px;
+}
+
+.chuongtrinh .chuongtrinh-item {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.chuongtrinh .chuongtrinh-item img {
+    width: 100%;
+}
+
+.chuongtrinh .chuongtrinh-item h2 {
+    font-size: 20px;
+    color: red;
+}
+
+.chuongtrinh .chuongtrinh-item p {
+    text-align: justify;
+}
+
+.clear {
+    clear: both;
+}
+
+#tintucsukien {
+    position: relative;
+}
+
+#tintucsukien h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#tintucsukien .line {
+    position: absolute;
+    background-image: url(../img/line.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 30px;
+    left: 400px;
+    width: 500px;
+}
+
+.tintuctong {
+    margin-top: 60px;
+    
+  
+}
+
+
+
+/* .item-tintuc .trai img {
+    width: 100%;
+} */
+
+.tintuctong .trai{
+    width: 50%;
+    float: left;
+    padding: 5px;
+
+      
+}
+.tintuctong .trai img{
+    width: 100%;
+}
+.tintuctong .phai img{
+    max-width: 100%;
+    text-align: center;
+    margin: 0 15px;
+    margin-top: 15px;
+    height: auto;
+    object-fit: cover;
+}
+/* .item-tintuc .phai img {
+    width: 100%;
+} */
+
+.tintuctong .phai{
+   width: 50%;
+   float: right;
+   padding: 5px;
+}
+
+
+
+
